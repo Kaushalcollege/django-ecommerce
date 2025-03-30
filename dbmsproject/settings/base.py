@@ -13,14 +13,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'crispy_forms',
     'django_countries',
-
+    "bootstrap4",
     'core'
 ]
 
@@ -36,7 +35,7 @@ MIDDLEWARE = [
 ]
 
 
-ROOT_URLCONF = 'djecommerce.urls'
+ROOT_URLCONF = 'dbmsproject.urls'
 
 TEMPLATES = [
     {
@@ -54,7 +53,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djecommerce.wsgi.application'
+WSGI_APPLICATION = 'dbmsproject.wsgi.application'
 
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
